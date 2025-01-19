@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChessBoard</title>
+    <link rel="icon" href="images/chess.jpg">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 70px;
+            /* font-family: Ink Free; */
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 2px white;
+            word-spacing: 2.5px;
+            background-image: url(images/chess.jpg);
+            -webkit-background-clip: text;
+        }
+
+        .chess {
+            width: 1140px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        table {
+            border: 2px solid white;
+            width: 100px;
+
+            /* height: 400px; */
+            /* width: 500px; */
+
+            /* height: 200px; */
+        }
+
+        td {
+            text-align: center;
+            border: 2px solid black;
+            width: 40px;
+            /* padding: 7px; */
+
+        }
+
+        .black {
+            background-color: white;
+            color: whitesmoke;
+            border: 2px solid white;
+        }
+
+        .white {
+            background-color: white;
+            border: 2px solid;
+        }
+
+        .chessImg {
+            width: 100%;
+            /* height: 100%; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CHESS BOARD BY HTML TABLE</h1>
+
+
+    <div class="chess">
+        <img src="images/girl-removebg-preview.png" width="200" alt="girl">
+        <table cellspacing="0">
+
+            <!-- Row One -->
+            <tr>
+                <td class="black"> <img src="images/chesspc1-removebg-preview.png" alt="chesspiece" class="chessImg">
+                </td>
+                <td> </td>
+                <td class="black"></td>
+                <td>hello</td>
+                <td class="black"> <img src="images/black-queen-removebg-preview.png" alt="" class="chessImg"></td>
+                <td>hello</td>
+                <td class="black"></td>
+                <td></td>
+
+                <!-- Row Two -->
+            <tr>
+                <td></td>
+                <td class="black"></td>
+                <td>hello</td>
+                <td class="black"> <img src="images/black-queen-removebg-preview.png" alt="" class="chessImg"></td>
+                <td>hello</td>
+                <td class="black"></td>
+                <td>hello</td>
+                <td class="black"> <img src="images/chesspc2-removebg-preview.png" class="chessImg" alt=""></td>
+            </tr>
+
+            <!-- Row Three -->
+
+            <tr>
+                <td class="black"> <img src="images/chesspc4-removebg-preview.png" alt="" class="chessImg"></td>
+                <td>hello</td>
+                <td class="black"><img src="images/chesspc2-removebg-preview.png" class="chessImg" alt=""></td>
+                <td>hello</td>
+                <td class="black">hello</td>
+                <td>hello</td>
+                <td class="black">hello</td>
+                <td>hello</td>
+            </tr>
+
+            <!-- Row Four -->
+            <tr>
+                <td>hello</td>
+                <td class="black"> <img src="images/chesspc3.jpeg" alt="" class="chessImg"></td>
+                <td>hello</td>
+                <td class="black">hello</td>
+                <td>hello</td>
+                <td class="black">hello</td>
+                <td>hello</td>
+                <td class="black"> <img src="images/chesspc3.jpeg" alt="" class="chessImg"></td>
+            </tr>
+            <!-- Row Five -->
+
+            <tr>
+                <td class="black">hello</td>
+                <td>hello</td>
+                <td class="black">hello</td>
+                <td>hello</td>
+                <td class="black"> <img src="images/black-queen-removebg-preview.png" alt="" class="chessImg"></td>
+                <td>hello</td>
+                <td class="black"> <img src="images/chesspc3.jpeg" alt="" class="chessImg"></td>
+                <td>hello</td>
+            </tr>
+
+            <!-- Row Six -->
+            <tr>
+                <td>hello</td>
+                <td class="black"> <img src="images/black-queen-removebg-preview.png" alt="" class="chessImg"></td>
+                <td>hello</td>
+                <td class="black">hello</td>
+                <td> <img src="images/chesspc2-removebg-preview.png" class="chessImg" alt=""></td>
+                <td class="black">hello</td>
+                <td>hello</td>
+                <td class="black">hello</td>
+            </tr>
+
+            <!-- Row Seven -->
+            <tr>
+                <td class="black"> <img src="images/black-queen-removebg-preview.png" alt="" class="chessImg"></td>
+                <td>hello</td>
+                <td class="black">hello</td>
+                <td>hello</td>
+                <td class="black">hello</td>
+                <td>hello</td>
+                <td class="black"><img src="images/chesspc2-removebg-preview.png" class="chessImg" alt=""></td>
+                <td>hello</td>
+            </tr>
+
+            <!-- Row Eight -->
+            <tr>
+                <td>hello</td>
+                <td class="black">hello</td>
+                <td>hello</td>
+                <td class="black"><img src="images/chesspc2-removebg-preview.png" class="chessImg" alt=""></td>
+                <td>hello</td>
+                <td class="black"> <img src="images/chesspc3.jpeg" alt="" class="chessImg"></td>
+                <td>hello</td>
+                <td class="black"> <img src="images/black-queen-removebg-preview.png" alt="" class="chessImg"></td>
+            </tr>
+
+
+        </table>
+        <img src="images/images-removebg-preview.png" width="150" alt="boy">
+
+    </div>
+</body>
+
+</html>
